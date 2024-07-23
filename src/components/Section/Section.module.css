@@ -1,0 +1,6 @@
+.titleStat {
+    text-align: center;
+    font-family: 'Oxygen';
+    color: rgb(109, 47, 255);
+    text-shadow: 1px 1px 1px red, 0 0 0.1em blue, 0 0 0.2em blue;
+}

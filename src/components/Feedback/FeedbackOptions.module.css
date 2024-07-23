@@ -1,0 +1,19 @@
+.btnContainer{
+    display: flex;
+  justify-content: center;
+}
+.buttons {
+    background-color: whitesmoke;
+    color: red;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;   
+    margin-left: 16px; 
+    box-shadow: 1px 1px 1px red;
+     transition: all .2s ease-in-out;
+    
+}
+.buttons:hover {
+  background-color: #3700b3;
+  transform: scale(1.25);
+}
