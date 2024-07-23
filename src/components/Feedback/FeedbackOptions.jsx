@@ -2,6 +2,7 @@ import React from "react";
 import styles from './FeedbackOptions.module.css';
 import propType from 'prop-types';
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
+ 
     return (
       <div className = {styles.btnContainer}>
         {options.map(option => (
@@ -16,7 +17,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     );
 };
 FeedbackOptions.propTypes = {
-  options: propType.string,
+  options: propType.object,
   onLeaveFeedback: propType.func,
 }
 export default FeedbackOptions;
